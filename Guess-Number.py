@@ -8,12 +8,13 @@ while i<3:
 	nuser = int(nuser)
 	if nuser == x : 
 		print("...WoW...")
-		print("Shoma movafagh Shodid ... ")
+		print("You have succeeded in guessing the number")
 		sys.exit(0)
-		# end()
+		
 	elif x > nuser :
-		print("Add tolid shode bozorgtar ast. ")
+		print("Input Number Is Low. ")
 	else :
-		print("Add tolid shode kochektar ast ast. ")
+		print("Input Number Is High. ")
 	i+=1
-print("Shoma movafagh NaShodid ... ")
+print("You have not been able to guess the number ... ")
+print("Try again")
