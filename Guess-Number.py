@@ -1,7 +1,7 @@
 import random 
 import sys
 i=0
-x = random.randint(0,5) 
+x = random.randint(0,10) 
 
 while i<3:
 	nuser = input("Please Enter Number : ")
